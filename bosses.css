@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Jaini+Purva&display=swap');
+
+@font-face {
+    font-family: IceFont;
+    src: url('./fonts/IceFont.otf');
+}
+
+:root {
+    --ff-icefont: 'IceFont', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--ff-icefont);
+    text-align: center;
+    text-decoration: underline;
+}
+
+body {
+    background-image: linear-gradient(rgba(170, 170, 170, 0.3) 60%, rgba(170, 170, 170, 0.3) 60%),url("pics/icc.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: "Jaini Purva", system-ui;
+    font-size: large;
+    font-style: normal;
+    letter-spacing: 1px;
+}
+
+.bossnames {
+    color: rgb(171, 255, 255);
+    background-color: rgba(5, 43, 75, 0.75);
+    max-width: 1200px;
+    padding: 5px;
+    border-bottom-left-radius: 45px;
+    border-bottom-right-radius: 45px;
+    margin-bottom: 25px;
+}
+
+.bossfights {
+    color: rgb(209, 250, 255);
+    background-color: rgba(5, 43, 75, 0.75);
+    text-align: justify;
+    max-width: 1200px;
+    padding: 15px;
+    border-radius: 45px;
+    margin-bottom: 50px;
+}
+
+.bossfights img {
+    float: left;
+    padding: 20px;
+}
+
+.main {
+    font-family: var(--ff-icefont);
+    left: 0;
+    right: 0;
+    bottom:0;
+    text-align: center;
+    text-decoration: underline;
+    color: rgb(171, 255, 255);
+    background-color: rgba(5, 43, 75, 0.75);
+    max-width: fit-content;
+    padding: 20px;
+    border-radius: 45px;
+    margin-bottom: 50px;
+}
+
+#rightarrow {
+    font-family: var(--ff-icefont);
+    text-align: center;
+    color: rgb(171, 255, 255);
+    background-color: rgba(5, 43, 75, 0.75);
+    border-radius: 45%;
+    display: flex;
+    max-width: fit-content;
+    justify-content: end;
+    align-items: center;
+    position:fixed;
+    right: 0;
+    top:45%;
+    bottom:45%;
+    margin-right:10px;
+    font-size: 50px;
+    padding: 0 25px;
+}
+
+#leftarrow {
+    font-family: var(--ff-icefont);
+    text-align: center;
+    color: rgb(171, 255, 255);
+    background-color: rgba(5, 43, 75, 0.75);
+    border-radius: 45%;
+    display: flex;
+    max-width: fit-content;
+    justify-content: start;
+    align-items: center;
+    position:fixed;
+    left: 0;
+    top:45%;
+    bottom:45%;  
+    margin-left:10px;
+    font-size: 50px;
+    padding: 0 25px;
+}
+
+a.arrow {
+    text-decoration: none;
+}

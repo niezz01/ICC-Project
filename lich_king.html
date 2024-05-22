@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bosses.css">
+    <title>Lich King</title>
+</head>
+<body>
+    <div class="container-fluid bossnames">
+        <h1>Lich King</h1>
+    </div>
+    <div class="container" id="leftarrow"><a class="arrow" href="sindra.html"> < </a></div>
+    <div class="container-fluid bossfights">
+        <img src="pics/Lich-king.jpg" alt="Lich King">
+        1. fázis
+
+        <p><b>Melee Swing</b> – Kb 12-15k körül üt egy normálisan gearelt tankra.</p>
+
+        <p><b>Summon Shambling Horror</b> – Kb 35 secenként kasztolja: egy Shambling Horror-t idéz meg vele, amit az offtanknak azonnal fel kell vennie.</p>
+
+        <p><b>Summon Drudge Ghouls</b> – Kb 30 secenként kasztolja: 3 kisebb ghoult idéz meg vele, fel kell vennie a tanknak.</p>
+
+        <p>
+            <b>Infest</b> – 20 secenként kasztolja el: ez egy AoE, ami 6.5-7.5k közötti sebzést okoz az egész raidnek, és egy DoT-ot hagy maga után, ami először kicsit, majd egyre nagyobbakat sebez. Ezt a DoT-ot úgy lehet leszedni, hogy mindenkit 90% fölé kell gyógyítani, és ekkor automatikusan megszűnik. Figyelni kell, mert szép nagyokat tud ütni, ha nem healelik fel az embert teljesen!
+        </p>
+
+        <p>
+            <b>Necrotic Plague</b> – Ez egy DoT, ami marha nagyot sebez 5 secenként 15 secig. 25 másodpercenként egy random ember kapja meg. Ha ez az effekt végetér (lejár, belehal a célpont vagy leszedik), egy 10 yardon belüli másik célpontra ugrik, ami vagy egy másik járékos, vagy egy add. Ha nem tud továbbugrani, akkor símán megszűnik. Ha ledispelezik, veszít egy stacket, ha meghal az áldozata, kap egy stacket. Amint ezt valaki megkapja, azonnal oda kell futnia az addokhoz, és ekkor valaki ledispelezi róla, ezáltal a DoT az addra ugrik. Ha jól csináljuk, akkor a plague "pattog” a ghoulok közt, majd rákerül a Horrorra. Ha elég sok addon végigment, akkor kb 1 tickkel leöli a horrort (1 milla sebzés 20 stacknél) Amikor a DoT egy másik célpontra ugrik, a Lich King egy Plague Siphon nevű buffot kap.
+        </p>
+
+        <p>
+            <b>Plague Siphon</b> – Minden alkalommal kap egy stacket ebből, amikor a Necrotic Plague egy másik célpontra ugrik. Növeli LK sebzését 2%-kal 30 secre, az idő mindig újrakezdődik, amikor egy új stacket kap. Egy jól gearelt tank kb 35-40 stacket bír el nagyobb baj nélkül, ekkor viszont már LK mocsok nagyot üt, kellenek a cooldownok.
+        </p>
+
+        <p><b>1.5 és 2.5 fázis</b></p>
+
+        <p>Vicces számozás, de ez egy átmeneti fázis, ami kétszer fordul elő, ezért így jelöltem.</p>
+
+        <p>Amikor LK hpja 70%-ra (40%-ra) esik, befut a platform közepére, és elkezdődik az átmeneti fázis. Ekkor az alábbi képességeket használja. A fázis 1 percig tart, utána elkasztolja a Quake-et, és kezdődik a 2. (3.) fázis</p>
+
+        <p><b>Remorseless Winter</b> – 2.5 sec casttime; 45 yardos AoE, az egész fázison át tart. 7-8k cold sebzés a raidre másodpercenként. Ki kell healelni.</p>
+
+        <p><b>Pain and Suffering</b> - Miután eltolta a Remorseless Winter-t, elkezdeni ezt castolni folyamatosan. Kijelöl egy célpontot, és kb a Star Warsból ismerős sith lighningot tolja rá  Ez is egy kis területi AoE (igazából 15 fokos sugárban jön a lighning a bosstól), 2.8-3.1k shadow sebzést okoz, és egy 2 seces DoT-ot hagy az eltalált embereken, ami még 500 sebzést oszt ki/sec. Ezért kell 3 külön groupba állni, hogy ne találjon el mindenkit, és pláne ne folyamatosan, ugyanis a DoT stackelődik!</p>
+
+        <p><b>Summon Ice Sphere</b> - 6-8 másodpercenként egy Ice Sphere-t indít LK egy játékos felé: kevés HP-ja van, lassan mozog, de azonnal le kell lőni, nem szabad, hogy 10 yardra megközelítse az embert, mert… ne akard tudni</p>
+
+        <p><b>Summon Raging Spirit</b> – Persze itt is jönnek addok: ez a Raging Spirit. 20 másodpercenként idéz egyet a kijelölt player mellé: a tank felveszi, elfordítja a raidtől, és leDPSeljük.</p>
+
+        <p><b>Quake</b>- A fázis vége; 1.5 sec casttime; amikor végzett az elkasztolásával, leszakad a kölső perem: mindenki, aki rajta volt, leesik, és die. Tehát 1.5 sec alatt be kell futni a peremről.</p>
+
+        <p><b>2. fázis</b></p>
+
+        <p>Amikor végetér a Quake, LK visszatér a normális kerékvágásba: üt, illetve Infest-et kasztol, de már nem idéz Ghoulokat és Horrot. Helyette az alábiakkal gazdagodik őkelme:</p>
+
+        <p><b>Summon Val’kyr Shadowguard</b></p> – 40-45 másodpercenként megidéz 1 Val’kyr-t. Ez a Val’kyr felkap egy random playert, és elkezdi a platform széle felé vinni. Ha odaér, ledobja az illetőt, aki átalakul egy palacsintává  Bár a palacsinta finom, nem tol DPS-t: ezt megelőzendő ki kell váltani a valkűrre amint megjelenik, és le kell DPSelni. Lehet stunnolni és lassítani, de nem lehet rootolni. Hogy minél több időnk legyen, mindenki a platform közepén áll.
+
+        <p><b>Soul Reaper</b> – Ez a tank-ölő spell. Félpercenként tolja el: üt egy nagyot, és hagy egy 5 seces debuffot. Amikor ez az 5 sec letelik, a tank 50k shadow sebzést kap, és LK kap 100% haste buffot 5 secre: tehát dupla sebességgel ütöget a drága. Na ez színtiszta kibaszás: ha nem haltál bele abba az 50k-ba, akkor majd most agyonver. Na ezért kell két tank: amint megjelenik ez az 5 seces debuff a tankon, a másik azonnal letauntolja LK-t, a healerek azonnal felhealelik maxra az első tankot, és imádkoznak, hogy a tank túlélje az 50k-t. Ja meg közben életbentartják a másik tankot, akit LK kb ledarál élve. Jó, mi?</p>
+
+        <p><b>Defile</b> - Na ez a combos spell. 35 másodpercenként LK kijelöl valakit (bárkit, akár tankot is /mer mér ne…/), és eltolja ezt a 2 seces casttimemal rendelkező gyönyörűséget. Amikor végez a casttal, a kijelölt player lába alatt egy 8 yardos területet lefedő "olajfolt” jelenik meg. Ez 3k/sec sebzést okoz mindenkinek, aki benne van, ja és minden okozott sebzéssel nő a mérete is, meg a sebzése is. Ez az "olajfolt” 30 secig marad meg. Amint LK-t látjuk, hogy ezt akarja castolni, mindenki szétszóródik (igen kicsi darabokra…), de marha gyorsan. Amint kijelöli a célpontját, az adott ember elkezd rohanni a perem felé, és mindenki más fut tőle elfelé. Amikor megjelenik a folt, a kijelölt játékos pont a közepén lesz, szal jó lenne nem megállni, kifutni belőle, oké?  Csak érdekesség: ha véletlen 3 játékos egyszerre hozzáér a Defile-hoz, akkor az olyan tempóban kezd el nőni, hogy nem lehet kifutni belőle: símán gyorsabban nő, mint a futási sebességed. Ja igen: eközben még vannak valkűrök is ugye…</p>
+
+        <p>40%-nál jön a 2.5 fázis, ami ugyanaz, mint a 1.5 fázis, csak itt összesen 4 Raging Spirit jön, nem 3.</p>
+
+        <p><b>3. fázis</b></p>
+
+        <p>
+            Amikor véget ér a Quake, LK-t újra felveszi a tank. Arthas újra elkezd ütni, Infest-elni, Soul Reaper-t tolni, Defile-t castolni, de legalább nem idéz valkűröket. Helyette:
+            Vile Spirits – 30 másodpercenként tolja el: megidéz egy rakat Spirit-et a feje fölé, akik egy darabig ott köröznek, majd minden Spirit kiválaszt magának 1 játékost, és elkezd az irányába mozogni (kb egy futó player sebességével). Ha odaér a kijelölt célponthoz, felrobban, és szép nagyot sebez 5 yardos AoE-ben. Le kell őket leölni: amikor megjelennek, Aoe rájuk, amíg mind meg nem döglik, ha meg üldöz valakit, akkor addig kiteolni, amíg a rangedek le nem szedik.
+        </p>
+
+        <p><b>Harvest Soul</b> - 75 másodpercenként tolja el: kijelöl valakit (nem az aktuális tankot /kösz b+, még szerencse…/), és a kijelölt player 6 secen át 7k shadow sebzést kap/sec. Ha ezt túléli az illető, akkor bekerül Frosmourne belsejébe: itt a healereknek életben kell tartaniuk LK apját, míg a DPS-eknek le kell zúzniuk a fatert támadó spiritet. Ajánlatos szakítani a spiritet, mert úgy sokkal (télleg sokkal) kevesebbet sebez. Ha meghal az öreg, akkor LK 15 másodpercre Enrage-ed lesz (+100% damage). Na ilyenkor a Soul Reaper azonnal kinyírja a tankot, szóval CD-ket elő…</p>
+
+        <p>Ezeket váltogatja Arthas 10%-ig, ahol véget ér a fight</p>
+    </div>
+    <div class="container-fluid main"><a href="index.html"><h1>Vissza a főoldalra</h1></a></div>
+</body>

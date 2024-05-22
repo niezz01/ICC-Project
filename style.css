@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Jaini+Purva&display=swap');
+
+@font-face {
+    font-family: IceFont;
+    src: url('./fonts/IceFont.otf');
+}
+
+:root {
+    --ff-icefont: 'IceFont', sans-serif;
+}
+
+body {
+    background-image: linear-gradient(rgba(170, 170, 170, 0.3) 60%, rgba(170, 170, 170, 0.3) 60%),url("pics/Kill-Credit-Achievements-Lich-King-Classic.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: "Jaini Purva", system-ui;
+    font-size: large;
+    font-style: normal;
+    letter-spacing: 1px;
+}
+
+#bekezdes {
+    color: rgb(171, 255, 255);
+    background-color: rgba(5, 43, 75, 0.75);
+    align-items: center;
+    display:flexbox;
+    flex-direction: row;
+    justify-content: center;
+    text-align: justify;
+    max-width: 1200px;
+    padding: 10px 40px;
+    border-radius: 25px;
+    margin: 0 auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--ff-icefont);
+    text-align: center;
+    text-decoration: underline;
+}
+
+a {
+    color: rgb(0, 183, 255);
+    text-decoration: none;
+}
+
+a:hover {
+    color: aquamarine;
+    text-decoration: none;
+}
+
+#divimages{
+    display: block;
+}
+
+.img {
+    padding: 20px;
+    margin: 15px auto;
+    text-align: center;
+    border-radius: 25px;
+    overflow: hidden;
+    text-decoration: underline;
+}
+
+.bosses {
+    transition: transform 0.3s ease;
+    border: 2px solid rgb(62, 111, 216);
+    box-shadow: 2px 2px 2px rgb(0, 24, 77);
+    border-radius: 50%;
+}
+
+.bosses:hover {
+    transform: scale(1.1);
+}
+
+figcaption{
+    color: rgb(165, 224, 253);
+    text-shadow: 3px 3px 2px rgb(0, 24, 77);
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
